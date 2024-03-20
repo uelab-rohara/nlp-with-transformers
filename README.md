@@ -46,9 +46,12 @@ $ cd notebooks
 ```
 
 Next, run the following command to create a `conda` virtual environment that contains all the libraries needed to run the notebooks:
+Be aware that install command for PytTorch depends on the version of CUDA on your machine. Check the install command [here](https://pytorch.org/get-started/locally/).
 
 ```bash
-$ conda env create -f environment.yml
+$ conda env create -n hf_book python=3.11.8
+$ pip3 install torch torchvision torchaudio
+$ pip intall -r requirements.txt
 ```
 
 > Note: You'll need a GPU that supports NVIDIA's [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) to build the environment. Currently, this means you cannot build locally on Apple silicon 😢.
