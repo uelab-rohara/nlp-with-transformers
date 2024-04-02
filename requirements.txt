@@ -1,7 +1,7 @@
 # Base requirements
 # Install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/121 in advance
 transformers[tf,sentencepiece,vision,optuna,sklearn,onnxruntime]==4.16.2
-datasets[audio]==2.0.0
+datasets[audio]==2.14.6
 matplotlib
 ipywidgets
 # Chapter 2 - Classification

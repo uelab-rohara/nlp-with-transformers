@@ -93,3 +93,8 @@ If you'd like to cite this book, you can use the following BibTeX entry:
   publisher={O'Reilly Media, Incorporated}
 }
 ```
+
+# メモ
+## Chapter 2
+- paletteの環境ではTensorFlowで実行するコードが動かない。PyTorchなら動くので放置している。
+  - ローカル（TensorFlow=2.15）だと動くのでバージョンの問題か？
