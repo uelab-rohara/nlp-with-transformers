@@ -1,0 +1,4 @@
+transformers[optuna,sklearn,onnxruntime]==4.23.0
+datasets[audio]==2.14.6
+matplotlib
+ipywidgets
